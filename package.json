@@ -5,14 +5,14 @@
   "homepage": "https://shramee.github.io/claude-next-starter",
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "NODE_ENV=production next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "pnpm build && gh-pages -d out",
+    "deploy": "gh-pages -d out",
     "predeploy": "pnpm build"
   },
   "dependencies": {
-    "@radix-ui/react-slot": "^1.2.14",
+    "@radix-ui/react-slot": "^1.2.3",
     "@radix-ui/react-toast": "^1.2.14",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
