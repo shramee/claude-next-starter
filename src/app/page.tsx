@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input"
 import { Navigation } from "@/components/navigation"
 import { HeroSection } from "@/components/hero-section"
 import { Footer } from "@/components/footer"
-import { Code, Sparkles, Copy, Zap, Terminal, Palette, Rocket } from "lucide-react"
+import { Code, Copy, Terminal, Palette, Rocket } from "lucide-react"
 
 export default function Home() {
   return (

@@ -29,9 +29,6 @@ export function Footer() {
 					<div className="space-y-4">
 						<h4 className="font-medium">Resources</h4>
 						<div className="space-y-2 text-sm">
-							<Link href="https://shramee.github.io/claude-next-starter" className="block text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">
-								Live Demo
-							</Link>
 							<Link href="https://github.com/shramee/claude-next-starter#readme" className="block text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">
 								Documentation
 							</Link>

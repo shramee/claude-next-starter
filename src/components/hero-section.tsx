@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Code, Sparkles, ArrowRight, Download, ExternalLink } from "lucide-react"
+import { Code, Sparkles, ArrowRight, Download } from "lucide-react"
 import Link from "next/link"
 
 export function HeroSection() {
@@ -28,7 +28,7 @@ export function HeroSection() {
 
 					<p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
 						A modern Next.js starter template designed for seamless AI-assisted development.
-						Copy, paste, and build amazing applications with Claude's help.
+						Copy, paste, and build amazing applications with Claude&apos;s help.
 					</p>
 
 					<div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
