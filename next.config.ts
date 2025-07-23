@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
     unoptimized: true
   },
   basePath: process.env.NODE_ENV === 'production' ? '/claude-next-starter' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/claude-next-starter/' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/claude-next-starter' : '',
 };
 
 export default nextConfig;
